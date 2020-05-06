@@ -4,13 +4,13 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <semaphore.h>
-#include<unistd.h>
-#include<string.h>
-#include<sys/types.h>
-#include<sys/stat.h>
-#include<sys/time.h>
-#include<fcntl.h>
-#include<sys/mman.h> 
+#include <unistd.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <fcntl.h>
+#include <sys/mman.h> 
 
 int get_size(char*, char);
 void mmp(int);
