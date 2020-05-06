@@ -108,7 +108,7 @@ void* mmp(void* s)
     struct timeval tv1, tv2;
 
     gettimeofday( &tv1, NULL );
-    fd = open( "mmap_test", O_RDWR );
+    fd = open( "map_test", O_RDWR );
     array = mmap( NULL, sizeof(int)*size, PROT_READ|PROT_WRITE, MAP_SHARED, fd, 0 );
     munmap( array, sizeof(int)*size );
     msync( array, sizeof(int)*size, MS_SYNC );
