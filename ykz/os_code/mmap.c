@@ -25,7 +25,7 @@ int main(int argc, char* argv [])
     {
         puts("Error: Missing parameter");
         puts("\tFor instance: ( ./a.out 10 M )");
-        return 1;
+        return 3;
     }
     size = get_size(argv[1], (char)argv[2][0]);
     if(NULL == (fp = fopen("mmp_test","w")))
