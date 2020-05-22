@@ -1,0 +1,1 @@
+cmd_/home/lcx/code/15/2/cdev_module.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/lcx/code/15/2/cdev_module.ko /home/lcx/code/15/2/cdev_module.o /home/lcx/code/15/2/cdev_module.mod.o
